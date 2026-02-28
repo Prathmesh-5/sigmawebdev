@@ -1,0 +1,131 @@
+<!--  FORM making  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 style="color: rgb(36, 103, 186);">University Registration form</h1>
+
+    <h4>Please fill out the form below to register :</h4>
+    <hr>
+    <h3>Personal Details</h3>
+
+    <form>
+
+        <label for="firstname">First Name : </label>
+        <input type="text" id="firstname" name="userFirstName" placeholder="e.g.., Prashita">
+
+        <br><br>
+
+        <label for="lastname">Last Name : </label>
+        <input type="text" id="lastname" name="userLastName" placeholder="e.g.., Gupta">
+
+        <br><br>
+
+        <label>Date Of Birth : </label>
+        <input type="date">
+
+        <br><br>
+        <label>Gender : </label>
+        <br>
+        
+        <input type="radio" name="userGender" id="male" value="male">
+        <label for="male">Male </label>
+        <br>
+        <input type="radio" name="userGender" id="female" value="female">
+        <label for="female">Female </label>
+        <br>
+        <input type="radio" name="userGender" id="other" value="other">
+        <label for="other">Other </label>
+        <br><br>
+        <label for="photo">Upload Your Photo</label>
+        <br>
+        <input type="file" name="userPhoto" id="photo">
+        <br><br>
+        <hr>
+        <h3>Contact Information</h3>
+        
+        <label for="email">Email Address :</label>
+        <input type="text" placeholder="xyz@abc.com" id="email" name="userEmail">
+        <br><br>
+        <label for="mobnum">Mobile Number :</label>
+        <input type="tel" placeholder="+91 8081563821" id="mobnum" name="userMobNumber">
+        <br><br>
+        <label for="mailing">Mailing Address :</label>
+        <br>
+        <textarea name="address" id="mailing" placeholder="street address , city" cols="30" rows="6"></textarea>
+
+        <br>
+        <br>
+        <hr>
+        <h3>Acedemic Information</h3>
+        
+        <label for="Course">Select Your Course :</label>
+        <select name="Course" id="Course">
+            <option value="" selected disabled>Select</option>
+            <option value="Cyber">Cyber</option>
+            <option value="AI">AI</option>
+            <option value="AIML">AIML</option>
+            <option value="DA">DA</option>
+            <option value="Cloud">Cloud</option>
+
+        </select>
+        <br><br>
+        <label>Extracurricular Activities :</label>
+        <br>
+
+        <input type="checkbox" name="activity" id="sport" value="Sports">
+        <label for="sport">Sports</label>
+        <br>
+        <input type="checkbox" name="activity" id="music" value="Music & Arts">
+        <label for="music">Music & Arts</label>
+        <br>
+        <input type="checkbox" name="activity" id="game" value="Gaming">
+        <label for="game">Gaming</label>
+        <br>
+        <input type="checkbox" name="activity" id="tech" value="Technology Clubs">
+        <label for="tech">Technology Clubs</label>
+        <br><br>
+        <hr>
+        
+        <h3>Create Your Account</h3>
+        <label for="paswd">Create Your Password :</label>
+        <input type="password" name="userpassword" id="paswd">
+        <br><br>
+        <label for="sq">Security Question : </label>
+        <select name="securityQuestion" id="sq">
+            <option value="" selected disabled>select</option>
+            <option value="What is your 1st pet name ?">What is your 1st pet name ?</option>
+            <option value="What is your School name ?">What is your School name ?</option>
+            <option value="What is your favourite movie ?">What is your favourite movie ?</option>
+            <option value="What is your favourite fruit ?">What is your favourite fruit ?</option>
+            
+        </select>
+        <br><br>
+        <label for="secAns">Security Answer</label>
+        <input type="text" name="userSecurityAnswer" id="secAns">
+        <br><br>
+        <input type="checkbox" name="permission" id="permission">
+        <label for="permission">I agree to the terms and condition</label>
+
+        <br><br>
+        <hr>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+
+
+
+
+
+
+
+    </form>
+
+</body>
+</html>
+
