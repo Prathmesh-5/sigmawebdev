@@ -1,0 +1,56 @@
+/* h1{
+    font-style: italic;
+    background-color: rgb(226, 92, 43);
+}
+
+h2{
+    background-color: rgb(194, 146, 240);
+}
+ */
+
+.firstclass{
+    background-color: aquamarine;
+}
+
+#id2{
+    background-color: blue;
+    
+  font-family: "Betania Patmos", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.thirdclass{
+    background-color: antiquewhite;
+}
+
+.secondclass{
+    background-color: rgb(171, 86, 86);
+}
+
+#id_Veg{
+    background-color: rgba(60, 14, 212, 0.443);
+}
+
+#id1{
+    background-color: rgb(180, 214, 147);
+}
+
+#id_paneer{
+    background-color: coral;
+}
+
+#id_paneer, .firstclass, .secondclass{
+    background-color: rgb(55, 150,  160);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+#contact{
+    font-size: 30px;
+    font-weight: 800;
+}
