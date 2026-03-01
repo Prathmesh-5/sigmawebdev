@@ -1,0 +1,32 @@
+h1{
+    background-color: purple;
+
+}
+
+.firstclass{
+    background-color: rgb(98, 200, 203);
+    position: relative;
+    left: 600px;
+    top: 50px;
+    
+}
+
+h2{
+    background-color: wheat;
+    position: fixed;
+    top: 0px;
+    left: 650px;
+}
+
+h3{
+    background-color: blueviolet;
+    position: sticky;
+    top: 2px;
+
+}
+
+#id1{
+    background-color: rgb(224, 141, 81);
+    position: absolute;
+    top: 50px;
+}
