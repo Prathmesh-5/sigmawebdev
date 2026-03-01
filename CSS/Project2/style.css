@@ -1,0 +1,41 @@
+.yellowBox{
+    background-color: #FECC02;
+    height: 350px;
+    width: 550px;
+    position: relative;
+    left:480px;
+    top: 200px;
+}
+
+.B1{
+    background-color: #006AA7;
+    height: 150px;
+    width: 150px;
+}
+
+.B2{
+    background-color: #006AA7;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 57.2%;
+}
+
+.B3{
+    background-color: #006AA7;
+    height: 150px;
+    width: 345px;
+    position: absolute;
+    top: 0%;
+    left: 37.3%; 
+}
+
+.B4{
+    background-color: #006AA7;
+    height: 150px;
+    width: 345px;
+    position: absolute;
+    top: 57.2%;
+    left: 37.3%; 
+}
+
