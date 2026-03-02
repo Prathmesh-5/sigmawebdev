@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background-image:url("loginbackgroundcolor.png");
+    background-size:cover;        /* poori screen cover */
+    background-position:center;   /* center me rakhe */
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #bdeeedb2;
+    height: 550px;
+    width: 400px;
+    border-radius: 3%;
+    padding: 50px;
+    
+    box-shadow: 0 10px 30px rgba(232, 26, 26, 0.849);
+
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 11%;
+    text-shadow: 2px 2px 5px rgba(239, 50, 50, 0.763);
+}
+
+.x1{
+    margin-bottom: 11%;
+}
+
+.x2{
+    margin-bottom: 11%;
+}
+
+.x3{
+    margin-bottom: 11%;
+}
+
+.username{
+    margin-bottom: 3%;
+}
+
+.email{
+    margin-bottom: 3%;
+}
+
+
+.userpaswd{
+    margin-bottom: 3%;
+
+}
+
+input{
+    width:100%;
+    padding:12px 15px;
+    margin-top:8px;
+    margin-bottom:20px;
+
+    border-radius:8px;
+    border:1px solid rgba(255,255,255,0.3);
+
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(5px);
+
+    color:#000;
+    font-size:15px;
+
+    outline:none;
+    transition:0.3s ease;
+
+    
+}
+
+input::placeholder{
+    color:#555;
+}
+
+input:focus{
+    border:1px solid #007BFF;
+    box-shadow:0 0 8px rgba(0,123,255,0.5);
+    background:rgba(255,255,255,0.25);
+    
+}
+
+button{
+    width:100%;
+    padding:12px 15px;
+    margin-top:8px;
+    margin-bottom:20px;
+
+    border-radius:8px;
+    border:1px solid rgba(255,255,255,0.3);
+
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(5px);
+
+    color:#000;
+    font-size:15px;
+
+    outline:none;
+    transition:0.3s ease;
+    
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+button:focus{
+    border:1px solid #007BFF;
+    box-shadow:0 0 8px rgba(0,123,255,0.5);
+    background:rgba(255,255,255,0.25);
+}
