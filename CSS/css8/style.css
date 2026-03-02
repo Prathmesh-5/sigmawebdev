@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding: 10px;
+}
+
+.grid_container_row_colm{
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.first{
+    background-color: red;
+    font-size: x-large;
+    
+}
+
+.second{
+    background-color: green;
+font-size: x-large;
+}
+
+.third{
+    background-color: purple;
+font-size: x-large;
+}
+
+.fourth{
+    background-color: rgb(25, 100, 212);
+    font-size: x-large;
+}
