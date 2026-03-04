@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 20px;
+    font-size: 30px;
+    color: aquamarine;
+    background-color: rgb(34, 91, 215);
+    width: 70%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+p{
+    
+    height: 100%;
+    width: 100%;
+    margin-left:102%;
+    animation-name: paragraph;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    animation: paragraph 5s linear infinite;
+   
+}
+
+
+@keyframes paragraph {
+
+    from{
+        margin-left: 102%;
+    }
+    to{
+        margin-left: -102%;
+    }
+
+}
