@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    
+
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+
+.box{
+    background-color: rgb(211, 87, 87);
+    height: 100px;
+    width: 150px;
+    animation-name: BOX;
+    position: absolute;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes BOX {
+
+    0%{
+        background-color: rgb(211, 87, 87);
+        top: 10px;
+        left: 10px;
+    }
+
+    10%{
+        background-color: rgb(37, 132, 135);
+        box-shadow: 10px 10px 20px 0px red;
+    }
+    25%{
+        background-color: rgb(114, 89, 204);
+        top: 10px;
+        left: 800px;
+    }
+
+    35%{
+        background-color: rgb(32, 142, 82);
+        box-shadow: 10px 10px 20px 0px rgb(77, 213, 172);
+    }
+
+    50%{
+        left: 800px;
+        top: 600px;
+        background-color: rgb(183, 60, 117);
+    }
+
+    65%{
+        background-color: goldenrod;
+        box-shadow: 10px 10px 20px 0px rgba(76, 146, 176, 0.651);
+        border-radius: 50%;
+    }
+
+    75%{
+        top: 600px;
+        left: 10px;
+        background-color: rgb(203, 111, 77);
+    }
+    85%{
+        background-color: rgb(167, 79, 127);
+        box-shadow: 10px 10px 20px 0px rgb(180, 125, 58);
+        border-radius: 50%;
+
+    }
+
+    100%{
+        background-color: rgb(211, 87, 87);
+        top: 10px;
+        left: 10px;
+    }
+
+}
