@@ -65,13 +65,12 @@
     }
 }
 
-
 .orbit{
     position:absolute;
-    top:45%;
+    top:27%;
     left:50%;
     transform:translate(-50%,-50%);
-    border:4px solid rgb(130, 131, 105);
+    border:2.5px solid rgb(174, 174, 156);
     border-radius:50%;
     
 
@@ -149,8 +148,8 @@
 }
 
 .eighthO{
-    height:1080px;
-    width:1080px;
+    height:1090px;
+    width:1090px;
     animation: orbitMove 22s linear infinite;
 
 }
@@ -349,10 +348,10 @@
 
 @keyframes orbitMove {
     from{
-        transform: translate(-50%,-50%) rotateX(72deg) rotateY(-6deg) rotate(0deg);
+        transform: translate(-50%,-50%) rotateX(72deg) rotateX(-28deg) rotate(0deg);
     }
     to{
-        transform: translate(-50%,-50%) rotateX(72deg)  rotateY(-6deg)  rotate(-360deg);
+        transform: translate(-50%,-50%) rotateX(72deg)  rotateX(-28deg)  rotate(-360deg);
     }
 }
 
